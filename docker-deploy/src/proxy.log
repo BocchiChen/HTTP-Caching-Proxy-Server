@@ -1,0 +1,136 @@
+0: "GET http://js.player.cntv.cn/creator/vodplayer.js HTTP/1.1" from 10.197.233.187 @ Tue Feb 28 21:54:05 2023
+0: Requesting "GET http://js.player.cntv.cn/creator/vodplayer.js HTTP/1.1" from js.player.cntv.cn
+0: not in cache
+0: Requesting "GET http://js.player.cntv.cn/creator/vodplayer.js HTTP/1.1" from js.player.cntv.cn
+0: Received "HTTP/1.1 304 Not Modified" from js.player.cntv.cn
+0: Responding "HTTP/1.1 304 Not Modified"
+1: "GET http://httpbin.org/forms/post HTTP/1.1" from 10.197.233.187 @ Tue Feb 28 21:54:12 2023
+1: Requesting "GET http://httpbin.org/forms/post HTTP/1.1" from httpbin.org
+1: not in cache
+1: Requesting "GET http://httpbin.org/forms/post HTTP/1.1" from httpbin.org
+1: Received "HTTP/1.1 200 OK" from httpbin.org
+1: NOTE Date: Tue Feb 28 21:54:12 2023 GMT
+1: cached, expires at Tue Feb 28 23:17:32 2023 GMT
+1: Responding "HTTP/1.1 200 OK"
+2: "GET http://httpbin.org/forms/post HTTP/1.1" from 10.197.233.187 @ Tue Feb 28 21:54:18 2023
+2: Requesting "GET http://httpbin.org/forms/post HTTP/1.1" from httpbin.org
+2: in cache, valid
+3: "POST http://httpbin.org/post HTTP/1.1" from 10.197.233.187 @ Tue Feb 28 21:54:23 2023
+3: Requesting "POST http://httpbin.org/post HTTP/1.1" from httpbin.org
+3: Received "HTTP/1.1 200 OK" from httpbin.org
+3: Responding "HTTP/1.1 200 OK"
+4: "GET http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx HTTP/1.1" from 10.197.233.187 @ Tue Feb 28 21:54:27 2023
+4: Requesting "GET http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx HTTP/1.1" from www.httpwatch.com
+4: not in cache
+4: Requesting "GET http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx HTTP/1.1" from www.httpwatch.com
+4: Received "HTTP/1.1 200 OK" from www.httpwatch.com
+4: NOTE Cache-Control: no-cache, no-store
+4: NOTE Date: Tue Feb 28 21:54:27 2023 GMT
+4: not cacheable because the Cache-Control contains no-store
+4: Responding "HTTP/1.1 200 OK"
+5: "GET http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx HTTP/1.1" from 10.197.233.187 @ Tue Feb 28 21:54:34 2023
+5: Requesting "GET http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx HTTP/1.1" from www.httpwatch.com
+5: not in cache
+5: Requesting "GET http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx HTTP/1.1" from www.httpwatch.com
+5: Received "HTTP/1.1 200 OK" from www.httpwatch.com
+5: NOTE Cache-Control: no-cache, no-store
+5: NOTE Date: Tue Feb 28 21:54:34 2023 GMT
+5: not cacheable because the Cache-Control contains no-store
+5: Responding "HTTP/1.1 200 OK"
+6: "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from 10.197.233.187 @ Tue Feb 28 21:54:41 2023
+6: Requesting "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from incoming.telemetry.mozilla.org
+6: Responding "HTTP/1.1 200 OK"
+7: "CONNECT contile-images.services.mozilla.com:443 HTTP/1.1" from 10.197.233.187 @ Tue Feb 28 21:54:41 2023
+8: "CONNECT img-getpocket.cdn.mozilla.net:443 HTTP/1.1" from 10.197.233.187 @ Tue Feb 28 21:54:41 2023
+7: Requesting "CONNECT contile-images.services.mozilla.com:443 HTTP/1.1" from contile-images.services.mozilla.com
+7: Responding "HTTP/1.1 200 OK"
+8: Requesting "CONNECT img-getpocket.cdn.mozilla.net:443 HTTP/1.1" from img-getpocket.cdn.mozilla.net
+8: Responding "HTTP/1.1 200 OK"
+9: "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from 10.197.233.187 @ Tue Feb 28 21:54:46 2023
+9: Requesting "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from incoming.telemetry.mozilla.org
+9: Responding "HTTP/1.1 200 OK"
+10: "CONNECT www.google.com:443 HTTP/1.1" from 10.197.233.187 @ Tue Feb 28 21:54:52 2023
+10: Requesting "CONNECT www.google.com:443 HTTP/1.1" from www.google.com
+10: Responding "HTTP/1.1 200 OK"
+10: Tunnel closed
+11: "GET http://www.baidu.com/ HTTP/1.1" from 10.197.233.187 @ Tue Feb 28 21:54:54 2023
+11: Requesting "GET http://www.baidu.com/ HTTP/1.1" from www.baidu.com
+11: not in cache
+11: Requesting "GET http://www.baidu.com/ HTTP/1.1" from www.baidu.com
+11: Received "HTTP/1.1 200 OK" from www.baidu.com
+11: NOTE Date: Tue Feb 28 21:54:55 2023 GMT
+11: cached, expires at Tue Feb 28 23:18:15 2023 GMT
+11: Responding "HTTP/1.1 200 OK"
+13: "CONNECT dss0.bdstatic.com:443 HTTP/1.1" from 10.197.233.187 @ Tue Feb 28 21:54:55 2023
+19: "GET http://hectorstatic.baidu.com/cd37ed75a9387c5b.js HTTP/1.1" from 10.197.233.187 @ Tue Feb 28 21:54:55 2023
+26: "CONNECT sp2.baidu.com:443 HTTP/1.1" from 10.197.233.187 @ Tue Feb 28 21:54:55 2023
+27: "GET http://www.baidu.com/sugrec?prod=pc_his&from=pc_web&json=1&sid=36558_38270_38131_37907_38148_38264_38177_38173_38231_38034_38261_37925_38089_26350_37881&hisdata=&_t=1677621295885&csor=0 HTTP/1.1" from 10.197.233.187 @ Tue Feb 28 21:54:55 2023
+22: "CONNECT sp1.baidu.com:443 HTTP/1.1" from 10.197.233.187 @ Tue Feb 28 21:54:55 2023
+20: "CONNECT sp1.baidu.com:443 HTTP/1.1" from 10.197.233.187 @ Tue Feb 28 21:54:55 2023
+27: Requesting "GET http://www.baidu.com/sugrec?prod=pc_his&from=pc_web&json=1&sid=36558_38270_38131_37907_38148_38264_38177_38173_38231_38034_38261_37925_38089_26350_37881&hisdata=&_t=1677621295885&csor=0 HTTP/1.1" from www.baidu.com
+27: not in cache
+27: Requesting "GET http://www.baidu.com/sugrec?prod=pc_his&from=pc_web&json=1&sid=36558_38270_38131_37907_38148_38264_38177_38173_38231_38034_38261_37925_38089_26350_37881&hisdata=&_t=1677621295885&csor=0 HTTP/1.1" from www.baidu.com
+13: Requesting "CONNECT dss0.bdstatic.com:443 HTTP/1.1" from dss0.bdstatic.com
+13: Responding "HTTP/1.1 200 OK"
+13: Tunnel closed
+27: Received "HTTP/1.1 200 OK" from www.baidu.com
+27: NOTE Date: Tue Feb 28 21:54:56 2023 GMT
+27: cached, expires at Tue Feb 28 23:18:16 2023 GMT
+27: Responding "HTTP/1.1 200 OK"
+22: Requesting "CONNECT sp1.baidu.com:443 HTTP/1.1" from sp1.baidu.com
+22: Responding "HTTP/1.1 200 OK"
+20: Requesting "CONNECT sp1.baidu.com:443 HTTP/1.1" from sp1.baidu.com
+20: Responding "HTTP/1.1 200 OK"
+29: "POST http://ocsp.globalsign.com/gsrsaovsslca2018 HTTP/1.1" from 10.197.233.187 @ Tue Feb 28 21:54:56 2023
+30: "POST http://ocsp.globalsign.com/gsrsaovsslca2018 HTTP/1.1" from 10.197.233.187 @ Tue Feb 28 21:54:56 2023
+26: Requesting "CONNECT sp2.baidu.com:443 HTTP/1.1" from sp2.baidu.com
+26: Responding "HTTP/1.1 200 OK"
+29: Requesting "POST http://ocsp.globalsign.com/gsrsaovsslca2018 HTTP/1.1" from ocsp.globalsign.com
+30: Requesting "POST http://ocsp.globalsign.com/gsrsaovsslca2018 HTTP/1.1" from ocsp.globalsign.com
+30: Received "HTTP/1.1 200 OK" from ocsp.globalsign.com
+30: Responding "HTTP/1.1 200 OK"
+29: Received "HTTP/1.1 200 OK" from ocsp.globalsign.com
+29: Responding "HTTP/1.1 200 OK"
+19: Requesting "GET http://hectorstatic.baidu.com/cd37ed75a9387c5b.js HTTP/1.1" from hectorstatic.baidu.com
+19: not in cache
+19: Requesting "GET http://hectorstatic.baidu.com/cd37ed75a9387c5b.js HTTP/1.1" from hectorstatic.baidu.com
+19: Received "HTTP/1.1 200 OK" from hectorstatic.baidu.com
+19: NOTE Cache-Control: max-age=3600
+19: NOTE Last-Modified: Tue, 28 Feb 2023 08:52:01 GMT
+19: NOTE Expires: Tue Feb 28 12:00:35 2023 GMT
+19: NOTE Date: Tue Feb 28 21:54:56 2023 GMT
+19: cached, expires at Tue Feb 28 22:54:56 2023 GMT
+19: Responding "HTTP/1.1 200 OK"
+21: "GET http://www.baidu.com/cache/fpid/chromelib_1_1.js?_=1677621295830 HTTP/1.1" from 10.197.233.187 @ Tue Feb 28 21:54:57 2023
+31: "CONNECT passport.baidu.com:443 HTTP/1.1" from 10.197.233.187 @ Tue Feb 28 21:54:57 2023
+21: Requesting "GET http://www.baidu.com/cache/fpid/chromelib_1_1.js?_=1677621295830 HTTP/1.1" from www.baidu.com
+21: not in cache
+21: Requesting "GET http://www.baidu.com/cache/fpid/chromelib_1_1.js?_=1677621295830 HTTP/1.1" from www.baidu.com
+21: Received "HTTP/1.1 200 OK" from www.baidu.com
+21: NOTE Cache-Control: max-age=315360000
+21: NOTE ETag: "4451-4fdbd6734c340"
+21: NOTE Last-Modified: Wed, 09 Jul 2014 07:10:29 GMT
+21: NOTE Expires: Fri Feb 25 21:54:57 2033 GMT
+21: NOTE Date: Tue Feb 28 21:54:57 2023 GMT
+21: cached, expires at Fri Feb 25 21:54:57 2033 GMT
+21: Responding "HTTP/1.1 200 OK"
+32: "CONNECT sp3.baidu.com:443 HTTP/1.1" from 10.197.233.187 @ Tue Feb 28 21:54:57 2023
+31: Requesting "CONNECT passport.baidu.com:443 HTTP/1.1" from passport.baidu.com
+31: Responding "HTTP/1.1 200 OK"
+32: Requesting "CONNECT sp3.baidu.com:443 HTTP/1.1" from sp3.baidu.com
+32: Responding "HTTP/1.1 200 OK"
+14: WARNING Invalid Request from 10.197.233.187 @ Tue Feb 28 21:55:00 2023
+12: WARNING Invalid Request from 10.197.233.187 @ Tue Feb 28 21:55:00 2023
+18: WARNING Invalid Request from 10.197.233.187 @ Tue Feb 28 21:55:00 2023
+17: WARNING Invalid Request from 10.197.233.187 @ Tue Feb 28 21:55:00 2023
+15: WARNING Invalid Request from 10.197.233.187 @ Tue Feb 28 21:55:00 2023
+16: WARNING Invalid Request from 10.197.233.187 @ Tue Feb 28 21:55:00 2023
+23: WARNING Invalid Request from 10.197.233.187 @ Tue Feb 28 21:55:01 2023
+28: WARNING Invalid Request from 10.197.233.187 @ Tue Feb 28 21:55:01 2023
+25: WARNING Invalid Request from 10.197.233.187 @ Tue Feb 28 21:55:01 2023
+24: WARNING Invalid Request from 10.197.233.187 @ Tue Feb 28 21:55:01 2023
+31: Tunnel closed
+22: Tunnel closed
+20: Tunnel closed
+26: Tunnel closed
+32: Tunnel closed
